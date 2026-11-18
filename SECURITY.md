@@ -10,7 +10,7 @@
 
 Open a private security advisory via GitHub
 (Security > Report a vulnerability) on
-[JordanNewell/curt-openwith](https://github.com/JordanNewell/curt-openwith/security/advisories/new),
+[dotcurt/curt-openwith](https://github.com/dotcurt/curt-openwith/security/advisories/new),
 or email the maintainer directly if you cannot use GitHub.
 
 Please include a description, reproduction steps, and affected versions.

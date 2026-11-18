@@ -27,7 +27,7 @@ bash "$(brew --prefix curt-openwith)/libexec/linux/install.sh" # Linux
 ```
 
 **Manual** — download the release zip from
-[GitHub Releases](https://github.com/JordanNewell/curt-openwith/releases)
+[GitHub Releases](https://github.com/dotcurt/curt-openwith/releases)
 and follow the platform steps below.
 
 **winget** — a manifest for v1.0.1 is drafted but not yet submitted.
@@ -127,7 +127,7 @@ target is `Curt Viewer.app`
 4. Opens the generated HTML in your default browser.
 
 The viewer page (an adjusted copy of the
-[dot_curt](https://github.com/JordanNewell/dot_curt) site viewer) checks
+[dot_curt](https://github.com/dotcurt/dot_curt) site viewer) checks
 `window.__OPENED_FILE` on load and runs the injected body through the exact
 same validate-then-render path as a file dropped on the page — so a corrupt
 or non-`.curt` file gets the same clean "Could not read this file" error box,
@@ -227,10 +227,10 @@ in `packaging/winget/` and is **not** submitted — submission is a human call
 
 ## Part of the .curt suite
 
-- [`curt-format`](https://github.com/JordanNewell/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
-- [`curt-convert`](https://github.com/JordanNewell/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
-- [`curt-vcon`](https://github.com/JordanNewell/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
-- [`curt-wildchat`](https://github.com/JordanNewell/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
-- [`curt-openwith`](https://github.com/JordanNewell/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
+- [`curt-format`](https://github.com/dotcurt/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
+- [`curt-convert`](https://github.com/dotcurt/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
+- [`curt-vcon`](https://github.com/dotcurt/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
+- [`curt-wildchat`](https://github.com/dotcurt/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
+- [`curt-openwith`](https://github.com/dotcurt/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
 
 MIT — see `LICENSE`.
