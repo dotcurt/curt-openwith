@@ -6,10 +6,10 @@ No server, no network; installs only under your user account.
 
 ## Install
 
-**Windows (Scoop)** — self-owned bucket:
+**Windows (Scoop)** — dotcurt bucket:
 
 ```powershell
-scoop bucket add jordannewell https://github.com/JordanNewell/bucket
+scoop bucket add dotcurt https://github.com/dotcurt/bucket
 scoop install curt-openwith
 ```
 
